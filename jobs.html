@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Jobs | JobFY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header id="header" class="headerContainer">
+        <div class="container header">
+            <a href="index.html" class="logo"><img src="images/logo.PNG" alt="Job Portal Logo"></a>
+            <nav>
+                <span tabindex="0" class="menuBtn" id="menuBtn" onclick="showMenu()">&#9776;</span>
+                <ul id="menu1" class="menu1 hide-desktop">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="jobs.html" class="active">Jobs</a></li>
+                    <li><a href="manage.html">Recruiters</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form class="container search" action="jobs.html" autocomplete="off">
+            <fieldset>
+                <legend><h1>Search for job</h1></legend>
+                <div class="inputContainer">
+                    <label for="searchByKeyword">Keyword</label>
+                    <input type="text" id="searchByKeyword" name="searchByKeyword" placeholder="Enter Keyword..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Keyword...'">
+                    <i class="fa fa-microphone" onclick="startDictation('keyword')" tabindex="0"></i>
+                </div>
+                <div class="inputContainer">
+                    <label for="searchByLocation">Location</label>
+                    <input type="text" id="searchByLocation" name="searchByLocation" placeholder="Enter Location..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Location...'">
+                    <i class="fa fa-microphone" onclick="startDictation('location')" tabindex="0"></i>
+                </div>
+                <input type="submit" id="searchButton" value="Search Jobs">
+            </fieldset>
+        </form>
+        <div class="container filter">
+            <div class="filterLeft" id="filterLeft">
+                <span tabindex="0" class="filterMenu fa" id="filterMenu" onclick="showFilter()">&#xf0b0;</span>
+                <form action="jobs.html">
+                    <fieldset>
+                        <legend><h2>Filter jobs</h2></legend>
+                        <div class="border"></div>
+                        <div class="hideFilter" id="showFilter">
+                            <label for="filterCompany">Company</label>
+                            <select name="filterCompany" id="filterCompany">
+                                <option value="" selected disabled>Select Company</option>
+                            </select>
+                            <label for="filterType">Type</label>
+                            <select name="filterType" id="filterType">
+                                <option value="" selected disabled>Select Type</option>
+                            </select>
+                            <label for="filterLocation">Location</label>
+                            <select name="filterLocation" id="filterLocation">
+                                <option value="" selected disabled>Select Location</option>
+                            </select>
+                            <label for="filterSalary">Min. Salary : <span id="salaryValue">2</span> LPA</label>
+                            <input type="range" id="filterSalary" name="filterSalary" min="2" max="20" value="2" class="slider">
+                            <label for="filterExperience">Min. Experience : <span id="experienceValue">0</span> Years</label>
+                            <input type="range" id="filterExperience" name="filterExperience" min="0" max="15" value="0" class="slider">
+                            <input type="reset" value="Reset" id="reset" class="btn">
+                            <input type="button" value="Filter" id="filter" class="btn">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="filterRight" id="filterRight">
+                <div class="filterRightTop" id="filterRightTop">
+                    <h2 id="count">Featured jobs</h2>
+                    <div class="sortBtn">
+                        <label for='sort'>Sort By</label>
+                        <select name='sort' id='sort'>
+                            <option value="" selected disabled>Sort By</option>
+                        </select>
+                        <button id='dsc'>&#8595;</button>
+                        <button id='asc'>&#8593;</button>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <ul class="output" id="output"></ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer">
+            <div class="about">
+                <a href="index.html" class="logo"><img src="images/logo2.png" alt="Job Portal Logo 2"></a>
+                <p>JobFY is the No.1 Jobsite for Freshers and experienced candidates in India with over thousands of resumes and recruiters hiring through us. Apply to Top Companies jobs by registering now! What’s more?</p>
+            </div>
+            <nav>
+                <ul class="menu2">
+                    <li><h3>For Candidates</h3></li>
+                    <li><a href="#">Applied Jobs</a></li>
+                    <li><a href="#">Job Alerts</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">My Resume</a></li>
+                    <li><a href="#">Upload Resume</a></li>
+                </ul>
+                <ul class="menu3">
+                    <li><h3>For Employers</h3></li>
+                    <li><a href="#">Company Profile</a></li>
+                    <li><a href="manage.html">Delete Job</a></li>
+                    <li><a href="post.html">Post new job</a></li>
+                    <li><a href="manage.html">Manage Job</a></li>
+                    <li><a href="#">View Resume</a></li>
+                </ul>
+            </nav>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <address>Jobfy Inc.
+                    N Heights, Phase 2, Madhapur
+                    Telangana - 500081
+                    <a href="mailto:ashish@jobfy.com">ashish@jobfy.com</a>
+                    <a href="tel:+919876543210">+91 9876543210</a>
+                </address>
+                <div class="icons">
+                    <a href="#" class="fa fa-facebook" title="Follow us on Facebook"></a>
+                    <a href="#" class="fa fa-twitter" title="Follow us on Twitter"></a>
+                    <a href="#" class="fa fa-instagram" title="Follow us on Instagram"></a>
+                    <a href="#" class="fa fa-linkedin" title="Follow us on Linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container sep">
+            <p class="copy">&copy; 2020 JobFY. Designed with <i class="fa fa-heart"></i> by Ashish</p>
+        </div>
+    </footer>
+    <script src="js/jobs.js"></script>
+</body>
+</html>

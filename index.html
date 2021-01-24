@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header id="header" class="headerContainer">
+        <div class="container header">
+            <a href="index.html" class="logo"><img src="images/logo.PNG" alt="Job Portal Logo"></a>
+            <nav>
+                <span tabindex="0" class="menuBtn" id="menuBtn" onclick="showMenu()">&#9776;</span>
+                <ul id="menu1" class="menu1 hide-desktop">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="manage.html">Recruiters</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="banner searchContainer">
+            <h1>Welocome to <span>Job</span>FY</h1>
+            <h2>Millions of jobs. Find the one that's right for you.</h2>
+            <form action="jobs.html" autocomplete="off">
+                <fieldset>
+                    <legend>Search for jobs</legend>
+                    <div class="inputContainer">
+                        <label for="searchByKeyword">Enter role, company or category...</label>
+                        <input type="text" id="searchByKeyword" name="searchByKeyword" placeholder="Enter Keyword..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Keyword...'">
+                        <i class="fa fa-microphone" onclick="startDictation('keyword')" tabindex="0" title="Click to speak"></i>
+                    </div>
+                    <div class="inputContainer">
+                        <label for="searchByLocation">Enter location...</label>
+                        <input type="text" id="searchByLocation" name="searchByLocation" placeholder="Enter Location..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Location...'">
+                        <i class="fa fa-microphone" onclick="startDictation('location')" tabindex="0" title="Click to speak"></i>
+                    </div>
+                    <input type="submit" id="searchButton" value="Search Jobs">
+                </fieldset>
+            </form>
+        </section>
+        <section class="container category">
+            <div class="sectionIntro">
+                <h2>Explore jobs</h2>
+                <p>We offer jobs in different categories</p>
+                <div class="border"></div>
+            </div>
+            <ul id="jobCategory" class="jobCategory"></ul>
+        </section>
+        <section class="container companies">
+            <div class="sectionIntro">
+                <h2>Companies</h2>
+                <p>Top companies hiring at JobFY</p>
+                <div class="border"></div>
+            </div>
+            <ul id="companyList" class="companyList"></ul>
+        </section>
+        <section class="container">
+            <div class="sectionIntro">
+                <h2>Testimonials</h2>
+                <p>See what people say about us</p>
+                <div class="border"></div>
+            </div>
+            <div class="testimonials">
+                <div class="testimonials-track">
+                    <div class="card">
+                        <img src="images/testimonials/testimonial1.jpg" alt="testimonial1" />
+                        <h3>Ellyse Perry</h3>
+                        <span>Atlanta, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae itaque, voluptatibus optio quas voluptas at, totam hic accusamus neque quam sed modi rerum adipisci deserunt aut, ratione omnis sequi repellat?<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial2.jpg" alt="testimonial2" />
+                        <h3>Kirstie Gordon</h3>
+                        <span>Nevada, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum, corporis itaque at nam voluptates. Iure est aut eaque inventore, commodi vel distinctio totam fugiat quaerat dolores maxime! Aspernatur, amet.<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial3.jpg" alt="testimonial3" />
+                        <h3>Maddy Green</h3>
+                        <span>Chicago, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quos tempora rem modi consequuntur vitae hic, quo, recusandae amet odit animi sint aliquid dolorum tenetur accusantium enim temporibus cupiditate quidem.<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial4.jpg" alt="testimonial4" />
+                        <h3>Sarah Taylor</h3>
+                        <span>Dallas, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi natus eveniet iusto incidunt tempora cumque doloribus itaque, quod consequatur veritatis odit fugit enim non quas ullam rerum? Qui, distinctio autem?<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial5.jpg" alt="testimonial5" />
+                        <h3>Richard Anderson</h3>
+                        <span>Detroit, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum, veritatis nostrum nam sint, vero accusantium eligendi eum alias reiciendis ad assumenda, odit quidem voluptates officiis nemo perspiciatis esse inventore.<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial1.jpg" alt="testimonial1" />
+                        <h3>Ellyse Perry</h3>
+                        <span>Atlanta, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae itaque, voluptatibus optio quas voluptas at, totam hic accusamus neque quam sed modi rerum adipisci deserunt aut, ratione omnis sequi repellat?<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial2.jpg" alt="testimonial2" />
+                        <h3>Kirstie Gordon</h3>
+                        <span>Nevada, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum, corporis itaque at nam voluptates. Iure est aut eaque inventore, commodi vel distinctio totam fugiat quaerat dolores maxime! Aspernatur, amet.<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial3.jpg" alt="testimonial3" />
+                        <h3>Maddy Green</h3>
+                        <span>Chicago, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quos tempora rem modi consequuntur vitae hic, quo, recusandae amet odit animi sint aliquid dolorum tenetur accusantium enim temporibus cupiditate quidem.<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial4.jpg" alt="testimonial4" />
+                        <h3>Sarah Taylor</h3>
+                        <span>Dallas, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi natus eveniet iusto incidunt tempora cumque doloribus itaque, quod consequatur veritatis odit fugit enim non quas ullam rerum? Qui, distinctio autem?<i class="fa fa-quote-right"></i></p>
+                    </div>
+                    <div class="card">
+                        <img src="images/testimonials/testimonial5.jpg" alt="testimonial5" />
+                        <h3>Richard Anderson</h3>
+                        <span>Detroit, USA</span>
+                        <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum, veritatis nostrum nam sint, vero accusantium eligendi eum alias reiciendis ad assumenda, odit quidem voluptates officiis nemo perspiciatis esse inventore.<i class="fa fa-quote-right"></i></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="help">
+            <div class="container help-content">
+                <div>
+                    <h2>Want job updates?</h2>
+                    <p>Subscribe now to get daily new job updates.</p>
+                </div>
+                <form action="index.html" autocomplete="off">
+                    <fieldset>
+                        <legend>Subscribe Us</legend>
+                        <label for="email">Enter Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address'" required="required">
+                        <input id="subscribe" type="submit" value="Subscribe">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer">
+            <div class="about">
+                <a href="index.html" class="logo"><img src="images/logo2.png" alt="Job Portal Logo 2"></a>
+                <p>JobFY is the No.1 Jobsite for Freshers and experienced candidates in India with over thousands of resumes and recruiters hiring through us. Apply to Top Companies jobs by registering now! What’s more?</p>
+            </div>
+            <nav>
+                <ul class="menu2">
+                    <li><h3>For Candidates</h3></li>
+                    <li><a href="#">Applied Jobs</a></li>
+                    <li><a href="#">Job Alerts</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">My Resume</a></li>
+                    <li><a href="#">Upload Resume</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="menu3">
+                    <li><h3>For Employers</h3></li>
+                    <li><a href="#">Company Profile</a></li>
+                    <li><a href="manage.html">Delete Job</a></li>
+                    <li><a href="post.html">Post new job</a></li>
+                    <li><a href="manage.html">Manage Job</a></li>
+                    <li><a href="#">View Resume</a></li>
+                </ul>
+            </nav>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <address>JobFY Inc.
+                    N Heights, Phase 2, Madhapur
+                    Telangana - 500081
+                    <a href="mailto:ashish@jobfy.com">ashish@jobfy.com</a>
+                    <a href="tel:+919876543210">+91 9876543210</a>
+                </address>
+                <div class="icons">
+                    <a href="#" class="fa fa-facebook" title="Follow us on Facebook"></a>
+                    <a href="#" class="fa fa-twitter" title="Follow us on Twitter"></a>
+                    <a href="#" class="fa fa-instagram" title="Follow us on Instagram"></a>
+                    <a href="#" class="fa fa-linkedin" title="Follow us on Linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container sep">
+            <p class="copy">&copy; 2020 JobFY. Designed with <i class="fa fa-heart"></i> by Ashish</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

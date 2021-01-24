@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply | JobFY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header id="header" class="headerContainer">
+        <div class="container header">
+            <a href="index.html" class="logo"><img src="images/logo.PNG" alt="Job Portal Logo"></a>
+            <nav>
+                <span tabindex="0" class="menuBtn" id="menuBtn" onclick="showMenu()">&#9776;</span>
+                <ul id="menu1" class="menu1 hide-desktop">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="manage.html">Recruiters</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <div class="formContainer container">
+            <div class="formLeft" id="formLeft">
+                <ul>
+                    <li id="about" class="focus" onclick="aboutForm()">About</li>
+                    <li id="contact" onclick="contactForm()">Contact Information</li>
+                    <li id=education onclick="educationForm()">Education Details</li>
+                    <li id="skill" onclick="skillForm()">Skills & More</li>
+                    <li id="work" onclick="workForm()">Work History</li>
+                    <li id="general" onclick="generalForm()">General Question</li>
+                    <li id="resume" onclick="resumeForm()">Resume</li>
+                </ul>
+            </div>
+            <div class="formRight" id="formRight">
+                <form action="#main" method="POST" autocomplete="off">
+                    <fieldset>
+                        <legend><h2>About</h2></legend>
+                        <span class="border"></span>
+                        <div class="row">
+                            <div class="col">
+                                <label for="firstName">First Name : </label>
+                                <input type="text" id="firstName" name="firstName" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required>
+                            </div>
+                            <div class="col">   
+                                <label for="lastName">Last Name : </label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="dob">Date of Birth : </label>
+                                <input type="date" id="dob" name="dob" required>
+                            </div>
+                        </div>
+                        <p>Gender : </p>
+                        <div class="row">
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="row">
+                            <input type="radio" id="female" name="gender" value="female" required>
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="row">
+                            <input type="radio" id="other" name="gender" value="other" required>
+                            <label for="other">Other</label>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Save & Continue" class="btn" onclick="contact.click()">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer">
+            <div class="about">
+                <a href="index.html" class="logo"><img src="images/logo2.png" alt="Job Portal Logo 2"></a>
+                <p>JobFY is the No.1 Jobsite for Freshers and experienced candidates in India with over thousands of resumes and recruiters hiring through us. Apply to Top Companies jobs by registering now! What’s more?</p>
+            </div>
+            <nav>
+                <ul class="menu2">
+                    <li><h3>For Candidates</h3></li>
+                    <li><a href="#">Applied Jobs</a></li>
+                    <li><a href="#">Job Alerts</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">My Resume</a></li>
+                    <li><a href="#">Upload Resume</a></li>
+                </ul>
+                <ul class="menu3">
+                    <li><h3>For Employers</h3></li>
+                    <li><a href="#">Company Profile</a></li>
+                    <li><a href="manage.html">Delete Job</a></li>
+                    <li><a href="post.html">Post new job</a></li>
+                    <li><a href="manage.html">Manage Job</a></li>
+                    <li><a href="#">View Resume</a></li>
+                </ul>
+            </nav>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <address>Jobfy Inc.
+                    N Heights, Phase 2, Madhapur
+                    Telangana - 500081
+                    <a href="mailto:ashish@jobfy.com">ashish@jobfy.com</a>
+                    <a href="tel:+919876543210">+91 9876543210</a>
+                </address>
+                <div class="icons">
+                    <a href="#" class="fa fa-facebook" title="Follow us on Facebook"></a>
+                    <a href="#" class="fa fa-twitter" title="Follow us on Twitter"></a>
+                    <a href="#" class="fa fa-instagram" title="Follow us on Instagram"></a>
+                    <a href="#" class="fa fa-linkedin" title="Follow us on Linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container sep">
+            <p class="copy">&copy; 2020 JobFY. Designed with <i class="fa fa-heart"></i> by Ashish</p>
+        </div>
+    </footer>
+    <script src="js/apply.js"></script>
+</body>
+</html>

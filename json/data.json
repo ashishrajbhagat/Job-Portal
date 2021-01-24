@@ -1,0 +1,834 @@
+[
+    {
+        "jobId" : 1,
+        "company": "LinkedIn",
+        "logo": "../images/company/linkedin.jpg",
+        "website": "https://www.linkedin.com/",
+        "category": "IT Software",
+        "role": "Software Engineer",
+        "type": "Full Time",
+        "experience": 2,
+        "salary": {
+            "start": 5,
+            "end": 7
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["BTech", "BE"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["Java", "HTML", "CSS", "Java Script", "Database"],
+        "responsibility": ["You will own the front-end development of our products and collaborate with User Experience Designers and Product Managers and build world-class user experience.", "You will implement cutting-edge technologies and will be writing state-of-the-art code to keep LinkedIn at the cutting edge of current technology.", "You will design and scale high scale services that integrate with the larger LinkedIn Platform to drive engagement on the platform.", "You will provide technical leadership in driving and performing the best engineering practices to initiate, plan, and execute large-scale, cross functional, and company-wide critical programs. Identify, leverage, and successfully evangelize opportunities to improve engineering productivity."],
+        "date": ["2020-12-15T10:00:00Z", "2021-01-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 2,
+        "company": "Rubrik, Inc.",
+        "logo": "../images/company/logo1.png",
+        "website": "https://www.rubrik.com/",
+        "category": "IT Software",
+        "role": "Associate Software Engineer",
+        "type": "Part Time",
+        "experience": 0,
+        "salary": {
+            "start": 4,
+            "end": 6
+        },
+        "location": {
+            "city": "Chennai",
+            "state": "Tamilnadu",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["BTech", "BE"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["Java", "HTML", "CSS", "Java Script", "Database"],
+        "responsibility": ["Architect efficient and reusable front-end systems that drive complex web applications", "Manage individual projects priorities, deadlines and deliverables with your technical expertise", "Collaborate with Product Designers, Product Managers, and Software Engineers to deliver compelling user-facing products", "Identify and resolve performance and scalability issues"],
+        "date": ["2020-12-10T10:00:00Z", "2021-01-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 3,
+        "company": "Hitachi Vantara",
+        "logo": "../images/company/logo2.jpg",
+        "website": "https://www.hitachivantara.com/",
+        "category": "IT Software",
+        "role": "Software Engineer",
+        "type": "Full Time",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 5
+        },
+        "location": {
+            "city": "Kolkata",
+            "state": "West Bengal",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["BTech", "BE", "BCA", "Diploma"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Java", "Python", "Problem Solving"],
+        "responsibility": ["We are seeking a Quality Engineer to join a fast-paced, highly collaborative engineering team. In this role, you will be responsible for enhancing test automation infrastructures written in Java and Python and developing/adopting new automation infrastructures, architecting test plans, and developing automated tests. The Engineering team embraces an highly collaborative Agile model that requires deep Quality-focused involvement from start to finish of each project."],
+        "date": ["2020-12-15T10:00:00Z", "2021-02-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 4,
+        "company": "Shell",
+        "logo": "../images/company/logo3.jpg",
+        "website": "https://www.shell.in/",
+        "category": "IT Software",
+        "role": "Software Engineer",
+        "type": "Full Time",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 5
+        },
+        "location": {
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["BTech", "BE", "BCA", "Diploma"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["Java", "Python", "HTML", "CSS", "Java Script", "Database", "Dot NET"],
+        "responsibility": ["Working in ORC project as a full stack developer", "Work on capturing the RAW data from end user and store in the structured data.", "Involve in solution design and responsbible for creating low leve design", "Working as a Dev engineer to deliver solutions for enhancements to be delivered in a sprint."],
+        "date": ["2020-12-10T10:00:00Z", "2021-02-20T23:59:59Z"]
+    },
+    {
+        "jobId" : 5,
+        "company": "SquareRoot Consulting (Pty) Ltd",
+        "logo": "../images/company/logo4.png",
+        "website": "http://squarerootindia.com/",
+        "category": "IT Software",
+        "role": "Software Developer",
+        "type": "Full Time",
+        "experience": 7,
+        "salary": {
+            "start": 10,
+            "end": 12
+        },
+        "location": {
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["BTech", "MTech"],
+            "specialization": ["Computer Science"]
+        },
+        "skills": ["Java", "Python", "Scala", "REST", "Database"],
+        "responsibility": ["Hiring Hardcore Developer for Bengaluru location for a Product Development company. Looking for someone who can join immediately or at a short notice period.", "Hiring Hardcore Developer for Bengaluru location for a Product Development company. Looking for someone who can join immediately or at a short notice period.", "Develop, use and improve tools for monitoring - must have an eye to look for potential problems and possess the ability to do systematic debugging to find out the root cause of the problem."],
+        "date": ["2020-12-15T10:00:00Z", "2021-02-20T23:59:59Z"]
+    },
+    {
+        "jobId" : 6,
+        "company": "Amazon",
+        "logo": "../images/company/amazon.png",
+        "website": "https://www.amazon.in/",
+        "category": "IT Software",
+        "role": "Software Development Engineer",
+        "type": "Full Time",
+        "experience": 3,
+        "salary": {
+            "start": 6,
+            "end": 8
+        },
+        "location": {
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["BTech", "MTech"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["Java", "C++", "C#", "Data Structure", "Problem Solving", "Excellent verbal and written communication skills"],
+        "responsibility": ["Delivery of product/feature across for all phases from development to launch in production.", "Ensuring the developed features are scalable and highly available with no quality concerns.", "Work closely with peer engineers for refining the design and implementation.", "Create and execute appropriate quality plans, project plans, test strategies and processes for development activities in collaboration with business and project management efforts."],
+        "date": ["2020-12-10T10:00:00Z", "2021-02-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 7,
+        "company": "Campus Sutra",
+        "logo": "../images/company/logo1.png",
+        "website": "https://campussutra.com/",
+        "category": "Accounting/Finance",
+        "role": "Accountant",
+        "type": "Full Time",
+        "experience": 3,
+        "salary": {
+            "start": 6,
+            "end": 8
+        },
+        "location": {
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Bachelor"],
+            "specialization": ["Accounting", "Finance"]
+        },
+        "skills": ["MS Office", "Relevant Computer Software (e.g. Tally)", "Good understanding of accounting and financial reporting principles and practices"],
+        "responsibility": ["Delivery of product/feature across for all phases from development to launch in production.", "Ensuring the developed features are scalable and highly available with no quality concerns.", "Work closely with peer engineers for refining the design and implementation.", "Create and execute appropriate quality plans, project plans, test strategies and processes for development activities in collaboration with business and project management efforts."],
+        "date": ["2020-12-10T10:00:00Z", "2021-02-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 8,
+        "company": "Eaton",
+        "logo": "../images/company/logo2.jpg",
+        "website": "https://www.eaton.com/",
+        "category": "Accounting/Finance",
+        "role": "Analyst",
+        "type": "Full Time",
+        "experience": 2,
+        "salary": {
+            "start": 4,
+            "end": 6
+        },
+        "location": {
+            "city": "Pune",
+            "state": "Maharashtra",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Accounting", "Finance"]
+        },
+        "skills": ["MS Office", "Knowledge of GL/FA processes and related financial processes", "Relevant Computer Software (e.g. Tally)", "Good understanding of accounting and financial reporting principles and practices", "Excellent Communications skills"],
+        "responsibility": ["Performs Shared Service KPI’s within the General Ledger function.", "Plans, prepares and reports the day to day business deliverables", "Provide an excellent service to the customers of the Shared Service Centre General ledger"],
+        "date": ["2020-11-10T10:00:00Z", "2021-02-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 9,
+        "company": "Eaton",
+        "logo": "../images/company/logo2.jpg",
+        "website": "https://www.eaton.com/",
+        "category": "Accounting/Finance",
+        "role": "Associate Analyst",
+        "type": "Part Time",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 5
+        },
+        "location": {
+            "city": "Pune",
+            "state": "Maharashtra",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Accounting", "Finance"]
+        },
+        "skills": ["MS Office", "Relevant Computer Software (e.g. Tally)", "Excellent Communications skills"],
+        "responsibility": ["Performs Shared Service KPI’s within the General Ledger function.", "Plans, prepares and reports the day to day business deliverables", "Provide an excellent service to the customers of the Shared Service Centre General ledger"],
+        "date": ["2020-11-10T10:00:00Z", "2021-02-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 10,
+        "company": "Amazon",
+        "logo": "../images/company/amazon.png",
+        "website": "https://www.amazon.in/",
+        "category": "Accounting/Finance",
+        "role": "Accounting Analyst",
+        "type": "Part Time",
+        "experience": 0,
+        "salary": {
+            "start": 4,
+            "end": 5
+        },
+        "location": {
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Accounting", "Finance"]
+        },
+        "skills": ["MS Office", "Relevant Computer Software (e.g. Tally)", "Excellent Communications skills"],
+        "responsibility": ["Performs Shared Service KPI’s within the General Ledger function.", "Plans, prepares and reports the day to day business deliverables", "Provide an excellent service to the customers of the Shared Service Centre General ledger"],
+        "date": ["2020-11-10T10:00:00Z", "2021-02-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 11,
+        "company": "BYJU'S",
+        "logo": "../images/company/byjus.jpg",
+        "website": "https://byjus.com/",
+        "category": "Sales & Marketing",
+        "role": "Business Development Associate",
+        "type": "Full Time",
+        "experience": 0,
+        "salary": {
+            "start": 8,
+            "end": 11
+        },
+        "location": {
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Excellent Communications skills"],
+        "responsibility": ["All selected candidates will be part of a two-month training process under the Business Development Trainee profile at a monthly stipend of INR 25,000. Upon successful completion of training candidates will be promoted to the role of Business Development Associates (BDA) The first 2 weeks of this training will be classroom training followed by 6 weeks of 'On-the-Job Training', both at the BDT Training Location. There will be additional performance incentives which will be applicable during the training period. Currently till our offices re-open, the training will happen in the Work from Home mode. Once our offices are open, the training will shift to the BDT Training Location. Upon successful completion of training based on clearing the company's expected parameters, they will be confirmed as BDA - Direct Sales (at 10 LPA) or BDA - Inside Sales (at 8 LPA). Also, only after confirmation to the BDA role, they will start work at their 'Role Location'."],
+        "date": ["2020-11-15T10:00:00Z", "2021-03-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 12,
+        "company": "ACIES",
+        "logo": "../images/company/logo3.jpg",
+        "website": "https://www.aciesglobal.com/",
+        "category": "Accounting/Finance",
+        "role": "Consultant",
+        "type": "Full Time",
+        "experience": 2,
+        "salary": {
+            "start": 5,
+            "end": 7
+        },
+        "location": {
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Commerce", "Economics", "Statistics"]
+        },
+        "skills": ["Excellent Communications skills"],
+        "responsibility": ["Lead, manage and execute medium to large-scale system implementations in areas related to ALM, liquidity risk, interest rate risk, balance sheet management, FTP, ICAAP, regulatory capital etc. for banks, NBFCs, insurance companies and corporates across the globe"],
+        "date": ["2020-11-15T10:00:00Z", "2021-03-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 13,
+        "company": "Swiggy",
+        "logo": "../images/company/logo1.png",
+        "website": "https://www.swiggy.com/",
+        "category": "Sales & Marketing",
+        "role": "Content Writer",
+        "type": "Freelance",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 5
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Excellent writting skills in English"],
+        "responsibility": ["Lead, manage and execute medium to large-scale system implementations in areas related to ALM, liquidity risk, interest rate risk, balance sheet management, FTP, ICAAP, regulatory capital etc. for banks, NBFCs, insurance companies and corporates across the globe"],
+        "date": ["2020-12-01T10:00:00Z", "2021-03-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 14,
+        "company": "Blurn.com",
+        "logo": "../images/company/logo2.jpg",
+        "website": "https://blurn.com/",
+        "category": "IT Software",
+        "role": "PHP Developer",
+        "type": "Freelance",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 5
+        },
+        "location": {
+            "city": "Pune",
+            "state": "Maharashtra",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate", "Post Graduate"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["PHP", "HTML", "CSS", "Java Script", "Database"],
+        "responsibility": ["The ideal candidate will efficiently and quickly write PHP in a timely and scalable way in order to improve the code-base of the company products in meaningful ways. This candidate will be able to test the code and make adjustments where necessary. They should also be experience in contributing to the whole software design lifecycle."],
+        "date": ["2020-12-10T10:00:00Z", "2021-03-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 15,
+        "company": "Marriott International",
+        "logo": "../images/company/logo3.jpg",
+        "website": "https://www.marriott.com/",
+        "category": "Restaurant/Food Services",
+        "role": "Front Office Manager",
+        "type": "Full Time",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 5
+        },
+        "location": {
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Hotel Management", "Hospitality", "Telephone Handling", "Guest Handling"],
+        "responsibility": ["Managing staff and overseeing schedules to make sure all departments have enough employees to provide assistance to guests,Providing customer service and accommodating clients who need extra assistance"],
+        "date": ["2020-12-10T10:00:00Z", "2021-03-20T23:59:59Z"]
+    },
+    {
+        "jobId" : 16,
+        "company": "Hotel Emerald",
+        "logo": "../images/company/logo4.png",
+        "website": "http://www.hotelemerald.in/",
+        "category": "Restaurant/Food Services",
+        "role": "Head Manager",
+        "type": "Full Time",
+        "experience": 3,
+        "salary": {
+            "start": 5,
+            "end": 7
+        },
+        "location": {
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Hotel Management", "Hospitality", "Telephone Handling", "Guest Handling"],
+        "responsibility": ["Managing staff and overseeing schedules to make sure all departments have enough employees to provide assistance to guests,Providing customer service and accommodating clients who need extra assistance"],
+        "date": ["2020-11-20T10:00:00Z", "2021-03-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 17,
+        "company": "Zomato",
+        "logo": "../images/company/logo1.png",
+        "website": "https://www.zomato.com/",
+        "category": "Customer Services",
+        "role": "Associate",
+        "type": "Full Time",
+        "experience": 0,
+        "salary": {
+            "start": 2,
+            "end": 3
+        },
+        "location": {
+            "city": "Noida",
+            "state": "Uttar Pradesh",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Excellent Communications skills"],
+        "responsibility": ["Need Graduate/Diploma employee having excellent writing and speeking skills in english/hindi who can talk to customer via chat or call"],
+        "date": ["2020-12-20T10:00:00Z", "2021-03-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 18,
+        "company": "Swiggy",
+        "logo": "../images/company/logo1.png",
+        "website": "https://www.swiggy.com/",
+        "category": "Customer Services",
+        "role": "Associate / Senior Associate",
+        "type": "Full Time",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 4
+        },
+        "location": {
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Excellent Communications skills"],
+        "responsibility": ["Need Graduate/Diploma employee having excellent writing and speeking skills in english/hindi who can talk to customer via chat or call"],
+        "date": ["2020-12-20T10:00:00Z", "2021-03-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 19,
+        "company": "Kotak Mahindra Bank Limited",
+        "logo": "../images/company/logo3.jpg",
+        "website": "https://www.kotak.com/",
+        "category": "Sales & Marketing",
+        "role": "Acquisition Manager",
+        "type": "Full Time",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 5
+        },
+        "location": {
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Diploma", "Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Excellent Communications skills", "Presentation Skills"],
+        "responsibility": ["Do KYC for 811 Digital Account through field visit, 100 % leads will be provided by the bank & cross-selling have to do along with that.", "Handle Investment and Insurance requirements of clients.", "Informs customers of new products or product enhancements to further expand the banking relationship."],
+        "date": ["2020-12-15T10:00:00Z", "2021-04-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 20,
+        "company": "Wipro Limited",
+        "logo": "../images/company/wipro.png",
+        "website": "https://www.wipro.com/",
+        "category": "Human Resources",
+        "role": "Analytics Consultant",
+        "type": "Full Time",
+        "experience": 0,
+        "salary": {
+            "start": 3,
+            "end": 5
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["R", "Python", "Microsoft Excel", "Excellent Communications skills"],
+        "responsibility": ["Play a pivotal role in designing, executing and measuring the effectiveness of global talent programs, which will include identifying issues, forming hypotheses and synthesizing conclusions into recommendations", "Communicate findings and recommendations on critical initiatives and influence leaders to take action on those findings", "Develop and analyze surveys and metrics"],
+        "date": ["2020-12-25T10:00:00Z", "2021-04-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 21,
+        "company": "Wipro Limited",
+        "logo": "../images/company/wipro.png",
+        "website": "https://www.wipro.com/",
+        "category": "IT Software",
+        "role": "Technical Lead",
+        "type": "Full Time",
+        "experience": 8,
+        "salary": {
+            "start": 5,
+            "end": 7
+        },
+        "location": {
+            "city": "Gurugram",
+            "state": "Haryana",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["Shell Script", "Python", "Excellent Communications skills"],
+        "responsibility": ["You should Define and publish key performance metrics for the development quality. You need to Interfaces with Switzerland and Chicago development and test teams. You should be having Backend and Front-end Web technologies (Angular) developer environment exposure. This role is primarily based at Pune. However, you may get the opportunity to visit other locations within India as and when the work demands. We’ve got quite a lot to offer."],
+        "date": ["2020-12-25T10:00:00Z", "2021-03-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 22,
+        "company": "TCS",
+        "logo": "../images/company/tcs.jpg",
+        "website": "https://www.tcs.com/",
+        "category": "IT Software",
+        "role": "Technical Lead",
+        "type": "Full Time",
+        "experience": 8,
+        "salary": {
+            "start": 5,
+            "end": 7
+        },
+        "location": {
+            "city": "Kolkata",
+            "state": "West Bengal",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["Shell Script", "Python", "Excellent Communications skills"],
+        "responsibility": ["You should Define and publish key performance metrics for the development quality. You need to Interfaces with Switzerland and Chicago development and test teams. You should be having Backend and Front-end Web technologies (Angular) developer environment exposure. This role is primarily based at Pune. However, you may get the opportunity to visit other locations within India as and when the work demands. We’ve got quite a lot to offer."],
+        "date": ["2020-12-15T10:00:00Z", "2021-03-30T23:59:59Z"]
+    },
+    {
+        "jobId" : 23,
+        "company": "Accenture",
+        "logo": "../images/company/accenture.jpg",
+        "website": "https://www.accenture.com/",
+        "category": "IT Software",
+        "role": "Associate Technical Lead",
+        "type": "Full Time",
+        "experience": 5,
+        "salary": {
+            "start": 4,
+            "end": 6
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["Shell Script", "Python", "Excellent Communications skills"],
+        "responsibility": ["You should Define and publish key performance metrics for the development quality. You need to Interfaces with Switzerland and Chicago development and test teams. You should be having Backend and Front-end Web technologies (Angular) developer environment exposure. This role is primarily based at Pune. However, you may get the opportunity to visit other locations within India as and when the work demands. We’ve got quite a lot to offer."],
+        "date": ["2020-11-25T10:00:00Z", "2021-03-15T23:59:59Z"]
+    },
+    {
+        "jobId" : 24,
+        "company": "Accenture",
+        "logo": "../images/company/accenture.jpg",
+        "website": "https://www.accenture.com/",
+        "category": "IT Software",
+        "role": "Technical Lead",
+        "type": "Full Time",
+        "experience": 8,
+        "salary": {
+            "start": 6,
+            "end": 9
+        },
+        "location": {
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Computer Science", "Information Technology"]
+        },
+        "skills": ["Shell Script", "Python", "Excellent Communications skills"],
+        "responsibility": ["You should Define and publish key performance metrics for the development quality. You need to Interfaces with Switzerland and Chicago development and test teams. You should be having Backend and Front-end Web technologies (Angular) developer environment exposure. This role is primarily based at Pune. However, you may get the opportunity to visit other locations within India as and when the work demands. We’ve got quite a lot to offer."],
+        "date": ["2020-11-25T10:00:00Z", "2021-03-25T23:59:59Z"]
+    },
+    {
+        "jobId" : 25,
+        "company": "Hotstar",
+        "logo": "../images/company/hotstar.jpg",
+        "website": "https://www.hotstar.com/",
+        "category": "Human Resources",
+        "role": "Recruiter",
+        "type": "Full Time",
+        "experience": 4,
+        "salary": {
+            "start": 6,
+            "end": 8
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Management", "Excellent Communications skills", "Presentation Skills"],
+        "responsibility": ["The right candidate must be able to successfully manage, prioritize and close searches against a timeline and have experience setting benchmarks, metrics, and understand how to prioritize to hit all customer SLAs.", "Collaborate and work with an experienced team of Recruiters/Sourcers to help support the hiring demand of our rapidly growing businesses.", "Optimize operational process flows and identify ways to deliver a consistent, scalable, customer obsessed recruitment experience to all stakeholders."],
+        "date": ["2020-11-25T10:00:00Z", "2021-03-25T23:59:59Z"]
+    },
+    {
+        "jobId" : 26,
+        "company": "Microsoft",
+        "logo": "../images/company/microsoft.jpg",
+        "website": "https://www.microsoft.com/",
+        "category": "Human Resources",
+        "role": "HR Consulting",
+        "type": "Full Time",
+        "experience": 5,
+        "salary": {
+            "start": 6,
+            "end": 8
+        },
+        "location": {
+            "city": "Noida",
+            "state": "Uttar Pradesh",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Management", "Excellent Communications skills", "Presentation Skills"],
+        "responsibility": ["HR Solutions Consulting", "Capability Building", "HR Projects & Programs", "Data and Reporting"],
+        "date": ["2020-11-25T10:00:00Z", "2021-03-25T23:59:59Z"]
+    },
+    {
+        "jobId" : 27,
+        "company": "Apple",
+        "logo": "../images/company/apple.jpg",
+        "website": "https://www.apple.com/",
+        "category": "Human Resources",
+        "role": "Corporate Recruiter",
+        "type": "Full Time",
+        "experience": 8,
+        "salary": {
+            "start": 10,
+            "end": 12
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Management", "Excellent Communications skills", "Presentation Skills"],
+        "responsibility": ["Help drive Recruiting initiatives, including diversity and university relation", "Partner with senior leadership and hiring managers to identify and build out staffing needs and strategies.", "Build and maintain positive relationships, and have a keen sense of negotiation with all “customers” including candidates, hiring managers and business partners.", "Maintain flexibility to deal with ambiguity and the evolving needs of the business environment."],
+        "date": ["2020-11-25T10:00:00Z", "2021-03-25T23:59:59Z"]
+    },
+    {
+        "jobId" : 28,
+        "company": "Amazon",
+        "logo": "../images/company/amazon.png",
+        "website": "https://www.amazon.in/",
+        "category": "IT Software",
+        "role": "Principal Engineer",
+        "type": "Full Time",
+        "experience": 10,
+        "salary": {
+            "start": 12,
+            "end": 15
+        },
+        "location": {
+            "city": "Chennai",
+            "state": "Tamilnadu",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Java", "C++", "Networking", "Database", "Excellent Communications skills"],
+        "responsibility": ["Define the long term technical strategy and architecture vision for device management, leveraging new technologies to deliver features to our customers", "Think big and continuously pitch for foundational solutions that will help device businesses to use these solutions, where applicable, instead of building their own.", "Define technical approach to ensure data privacy is considered while providing foundational solutions.", "Analyze the business opportunity to externalize more of our services to 3rd-party device makers"],
+        "date": ["2020-11-30T10:00:00Z", "2021-02-25T23:59:59Z"]
+    },
+    {
+        "jobId" : 29,
+        "company": "Microsoft",
+        "logo": "../images/company/microsoft.jpg",
+        "website": "https://www.microsoft.com/",
+        "category": "IT Software",
+        "role": "Principal Engineer",
+        "type": "Full Time",
+        "experience": 10,
+        "salary": {
+            "start": 12,
+            "end": 15
+        },
+        "location": {
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Java", "C++", "Networking", "Database", "Excellent Communications skills"],
+        "responsibility": ["Define the long term technical strategy and architecture vision for device management, leveraging new technologies to deliver features to our customers", "Think big and continuously pitch for foundational solutions that will help device businesses to use these solutions, where applicable, instead of building their own.", "Define technical approach to ensure data privacy is considered while providing foundational solutions.", "Analyze the business opportunity to externalize more of our services to 3rd-party device makers"],
+        "date": ["2020-11-30T10:00:00Z", "2021-02-25T23:59:59Z"]
+    },
+    {
+        "jobId" : 30,
+        "company": "Flipkart",
+        "logo": "../images/company/flipkart.jpg",
+        "website": "https://www.flipkart.com/",
+        "category": "IT Software",
+        "role": "Architect",
+        "type": "Full Time",
+        "experience": 8,
+        "salary": {
+            "start": 8,
+            "end": 10
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Java", "C++", "Presentation Skills", "Excellent Communications skills"],
+        "responsibility": ["Participating in code reviews, design reviews, architecture discussions", "Being responsible for Scaling, Performance & Quality for the team", "Experiment with new & relevant technologies and tools, and drive adoption while measuring yourself on the impact you are able to create", "Responsible for the architecture of your product; ensuring it is aligned to the requirements and the charter", "Creating architectures; designs for new solutions around existing and new problem spaces at Flipkart."],
+        "date": ["2020-12-10T10:00:00Z", "2021-02-25T23:59:59Z"]
+    },
+    {
+        "jobId" : 31,
+        "company": "Flipkart",
+        "logo": "../images/company/flipkart.jpg",
+        "website": "https://www.flipkart.com/",
+        "category": "IT Software",
+        "role": "Associate Architect",
+        "type": "Full Time",
+        "experience": 5,
+        "salary": {
+            "start": 6,
+            "end": 8
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Java", "C++", "Presentation Skills", "Excellent Communications skills"],
+        "responsibility": ["Participating in code reviews, design reviews, architecture discussions", "Being responsible for Scaling, Performance & Quality for the team", "Experiment with new & relevant technologies and tools, and drive adoption while measuring yourself on the impact you are able to create", "Responsible for the architecture of your product; ensuring it is aligned to the requirements and the charter", "Creating architectures; designs for new solutions around existing and new problem spaces at Flipkart."],
+        "date": ["2020-12-10T10:00:00Z", "2021-02-25T23:59:59Z"]
+    },
+    {
+        "jobId" : 32,
+        "company": "Cognizant Technology Solutions ",
+        "logo": "../images/company/cognizant.jpg",
+        "website": "https://www.cognizant.com/",
+        "category": "IT Software",
+        "role": "Solution Architect",
+        "type": "Full Time",
+        "experience": 12,
+        "salary": {
+            "start": 15,
+            "end": 18
+        },
+        "location": {
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "country": "India"
+        },
+        "qualifications": {
+            "degree": ["Graduate", "Post Graduate"],
+            "specialization": ["Any"]
+        },
+        "skills": ["Java", "C++", "Presentation Skills", "Excellent Communications skills", "Leadership", "Outsourcing"],
+        "responsibility": ["Solution shaping for large, strategic deals across areas like digital and customer experience transformation and engineering, IT outsourcing, modernization using cloud, AI and robotics, ERP transformation, contact center transformation", "Craft deliverable, winning solutions for proactive and reactive opportunities at scale", "Mentor, groom a team of solution managers in direct or indirect line of sight", "Work within a matrixed organization structure to devise best-in-class, innovation solution approaches to grow profitable business"],
+        "date": ["2020-12-10T10:00:00Z", "2021-02-25T23:59:59Z"]
+    }
+]
